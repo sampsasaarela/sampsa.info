@@ -1,6 +1,6 @@
 @import "reset.css";
 
-@import url(http://fonts.googleapis.com/css?family=Dosis|BenchNine|Armata|Russo+One|Iceland);
+@import url(http://fonts.googleapis.com/css?family=Dosis:300|BenchNine);
 body {
   background: #000;
 }
@@ -27,6 +27,7 @@ body {
   top: 65px;
   left: 105px;
   font-family: 'Dosis', sans-serif;
+  font-weight: 400;
   font-size: 30px;
   color: gray;
   letter-spacing: 5px;
