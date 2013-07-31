@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Sampsa Saarela</title>
+	<title>Sampsa Saarela | sampsa.info</title>
  
 	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
 	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
@@ -19,159 +19,22 @@
 	<meta name="DC.creator.email" content="info@sampsa.info" />
 	<meta name="DC.creator.url" content="http://www.sampsa.info/" />
  
-	<style type="text/css">
-    
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-    
-    body {
-        background:#000;
-    }
-    
-    #cardholder {
-        position:absolute;
-        top:50%;
-        margin-top:-270px;  
-        left:0px;      
-    }
-    #photo {
-        position:absolute;
-        top:50%;
-        margin-top:-261px;
-        right:0px;
-    }
-    .card {
-    	position:absolute;
-    	cursor:pointer;
-    }
-    #wrap {
-        position:absolute;
-        left:0px;
-        top:0px;
-        height:539px;
-        /*min-width:1232px;*/
-        width:100%;
-        top:50%;
-        margin-top:-270px;        
-    }
-    </style>
- 
- <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
- <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
- 
- <script language="javascript" type="text/javascript">
-    var maxwidth = cardw = photow = null; 	
-    function imageresize() {
-    	console.log('resize');
-        if(!maxwidth) {
-        	cardw = $('#cardfront').width();
-                cardh = $('#cardfront').height();                        	                
-        	photow = $('#photo').width();
-                photoh = $('#photo').height();                        	
-                maxwidth = photow+cardw;
-        }
-	
-	var cardp = photop = 1;   	
-   	var contentwidth = $(window).width();
-   	console.log(contentwidth+' '+maxwidth);
-    	if(maxwidth >  contentwidth) {
-    		var resize = (maxwidth-contentwidth)/2;
-    		console.log('r '+resize);
-    		var cardp = ((cardw-resize)/cardw);
-
-		var photop = ((photow-resize)/photow)
-	}	
-
-        console.log('cardp '+cardp);
-        $('#cardfront').width(cardp*cardw);
-        $('#cardfront').height(cardp*cardh);
-        $('#cardback').width(cardp*cardw);
-        $('#cardback').height(cardp*cardh);                                
-        $('#cardholder').css("margin-top",'-'+(cardp*cardh/2)+'px');                
-        
-        console.log('photop '+photop);
-        $('#photo').width(photop*photow);
-	$('#photo').height(photop*photoh);        
-	$('#photo').css("margin-top",'-'+(photop*photoh/2)+'px');
-     }
-    $(document).ready(function() {
-        $('#cardholder').hover(
-            function() {
-                $('#cardfront').fadeOut('slow',function() {
-                	//$('#cardback').fadeIn('slow');
-                });
-            },
-            function() {
-                $('#cardfront').fadeIn('slow',function() { 
-	                //$('#cardfront').fadeIn('slow');  
-            });            
-        });
-
-	imageresize();        
-        $('#cardholder').bind('click',function() {
-        	document.location.href="http://www.inoob.fi";
-        });
-    }); 
-    $(window).bind("resize",function() {
-    	imageresize();
-    });
- 
- </script>
- 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-<div id="wrap">
-    <div id="cardholder">
-        <a href="http://www.inoob.fi"><img src="1000000343.JPG" alt="" id="cardback" class="card" /></a>
-        <a href="http://www.inoob.fi"><img src="1000000344.JPG" alt="" id="cardfront" class="card" /></a>
+<div class="wrap">
+    <img src="http://www.gravatar.com/avatar/3aea969d5128e7690d4479bd831a8ac0.png?s=100" alt="" class="photo" />
+    <div class="sitename">SAMPSA.INFO</div>
+    <div class="name">SAMPSA SAARELA</div>
+    <div class="social">
+        <div class="linkedin iconblock" data-name="linkedin"><a href="http://www.linkedin.com/in/sampsasaarela"><img src="icons/linkedin.png" alt="LinkedIn"></a></div>
+        <div class="twitter iconblock" data-name="twitter"><a href="https://twitter.com/sampsasaarela"><img src="icons/twitter.png" class="" alt="Twitter"></a></div>
+        <div class="googleplus iconblock" data-name="googleplus"><a href="https://plus.google.com/111065308084464028030"><img src="icons/google+.png" class="" alt="Google+"></a></div>
+        <div class="facebook iconblock" data-name="facebook"><a href="https://www.facebook.com/sampsa.saarela"><img src="icons/facebook.png" class="" alt="Facebook"></a></div>
+        <div class="mail iconblock" data-name="mail"><a href="http://www.emailmeform.com/builder/form/uDc9rjVJdUhkWR8cKaFc"><img src="icons/mail.png" class="" alt="Mail"></a></div>
     </div>
-    <img src="photo.jpg" alt="" id="photo" />
 </div>
 
 <script type="text/javascript">
