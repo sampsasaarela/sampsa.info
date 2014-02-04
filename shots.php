@@ -3,7 +3,7 @@
 $pages = array(
                'linkedin' => 'http://www.linkedin.com/in/sampsasaarela',
                'twitter' => 'https://twitter.com/sampsasaarela',
-               'googleplus' => 'https://plus.google.com/111065308084464028030',
+               'googleplus' => 'https://plus.google.com/+SampsaSaarela',
                'facebook' => 'https://www.facebook.com/sampsa.saarela',
                'mail' => 'http://www.emailmeform.com/builder/form/uDc9rjVJdUhkWR8cKaFc'
 );
