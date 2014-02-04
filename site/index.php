@@ -1,24 +1,27 @@
+<?php
+require_once '../links.php';
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Sampsa Saarela | sampsa.info</title>
- 
+
 	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
 	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
- 
+
 	<meta name="DC.subject" content="" />
 	<meta name="keywords" content="" />
- 
+
 	<meta name="DC.Description" content="" />
 	<meta name="description" content="" />
- 
+
 	<meta name="robots" content="index,follow" />
 	<meta name="creator" content="Sampsa Saarela" />
 	<meta name="DC.creator" content="Sampsa Saarela" />
 	<meta name="DC.creator.email" content="info@sampsa.info" />
 	<meta name="DC.creator.url" content="http://www.sampsa.info/" />
- 
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
@@ -29,11 +32,9 @@
     <div class="sitename">SAMPSA.INFO</div>
     <div class="name">SAMPSA SAARELA</div>
     <div class="social">
-        <div class="linkedin iconblock" data-name="linkedin"><a href="http://www.linkedin.com/in/sampsasaarela"><img src="icons/linkedin.png" alt="LinkedIn"></a></div>
-        <div class="twitter iconblock" data-name="twitter"><a href="https://twitter.com/sampsasaarela"><img src="icons/twitter.png" class="" alt="Twitter"></a></div>
-        <div class="googleplus iconblock" data-name="googleplus"><a href="https://plus.google.com/+SampsaSaarela"><img src="icons/google+.png" class="" alt="Google+"></a></div>
-        <div class="facebook iconblock" data-name="facebook"><a href="https://www.facebook.com/sampsa.saarela"><img src="icons/facebook.png" class="" alt="Facebook"></a></div>
-        <div class="mail iconblock" data-name="mail"><a href="http://www.emailmeform.com/builder/form/uDc9rjVJdUhkWR8cKaFc"><img src="icons/mail.png" class="" alt="Mail"></a></div>
+      <?php foreach($some_links as $name => $link) { ?>
+        <div class="<?php echo $name; ?> iconblock" data-name="<?php echo $name; ?>" data-image="shots/<?php echo $shots[$name]; ?>.png"><a href="<?php echo $link; ?>"><img src="icons/<?php echo $name; ?>.png" alt="<?php echo $name; ?>"></a></div>
+        <?php } ?>
     </div>
 </div>
 

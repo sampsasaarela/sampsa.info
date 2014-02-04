@@ -1,5 +1,4 @@
 @import "reset.css";
-
 @import url(http://fonts.googleapis.com/css?family=Dosis:300|BenchNine);
 body {
   background: #000;
@@ -59,19 +58,4 @@ body {
   left: 35px;
   height: 48px;
   z-index: -1;
-}
-.wrap .social .twitter .shot {
-  background-image: url(../shots/twitter.png);
-}
-.wrap .social .linkedin .shot {
-  background-image: url(../shots/linkedin.png);
-}
-.wrap .social .facebook .shot {
-  background-image: url(../shots/facebook.png);
-}
-.wrap .social .googleplus .shot {
-  background-image: url(../shots/googleplus.png);
-}
-.wrap .social .mail .shot {
-  background-image: url(../shots/mail.png);
 }

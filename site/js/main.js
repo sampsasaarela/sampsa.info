@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $('.social .iconblock').each(function() {
-        $(this).append('<div class="shot"></div>');
+        $(this).append('<div class="shot" style="background-image: url('+$(this).data('image')+')"></div>');
         $(this).append('<div class="bar"></div>');
     });
 
-    $('.social a').on('mouseover',function() { 
+    $('.social a').on('mouseover',function() {
         var elem = $(this).parent();
         var shot = elem.find('.shot');
         shot.css({height : '48px'});
@@ -13,7 +13,7 @@ $(document).ready(function() {
         }, {
             complete : function() {
                 shot.animate({
-                    width : '280px'                    
+                    width : '280px'
                 },{
                     complete : function() {
                         shot.animate({
@@ -22,7 +22,7 @@ $(document).ready(function() {
                     }
                 });
             }
-        });        
+        });
     });
     $('.social a').on('mouseout',function() {
         var elem = $(this).parent();
@@ -39,6 +39,6 @@ $(document).ready(function() {
                     }
                 });
             }
-        });          
+        });
     });
 });
