@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:700);
+@-webkit-keyframes turnonlights {
+    0%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    1%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    4%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    7%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    8%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    12%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    22%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    23%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    26%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    28%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    34%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    36%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    42%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    55%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    60%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    63%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    67%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    72%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    73%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    76%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    78%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    84%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    86%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    96%    { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    100%    { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+}
+@-moz-keyframes turnonlights {
+    0%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    1%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    4%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    7%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    8%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    12%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    22%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    23%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    26%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    28%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    34%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    36%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    42%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    55%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    60%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    63%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    67%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    72%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    73%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    76%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    78%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    84%        { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+    86%        { color: #6d5669; text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E; }
+    96%    { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 17px #8AE429, 0 0 38px #8AE429}
+    100%    { color: #9AFE2E; text-shadow: 0 0 5px #8AE429, 0 0 10px #8AE429, 0 0 15px #8AE429, 0 0 20px #8AE429, 0 0 30px #8AE429, 0 0 40px #8AE429; }
+}
+body {
+ background: #474747;
+ padding-top: 5em;
+ font-family: "Advent Pro";
+}
+.title {
+    color: #222;
+    text-align: center;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    color: #222; text-shadow: 0px 2px 3px #555;
+}
+.content #switch {
+   color:#999;
+   position: absolute;
+   top: 1em;
+   left: 1em;
+   cursor: pointer;
+}
+.content {
+    position: relative;
+    padding: 2em;
+    margin: 1em auto;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin: 0.5em auto;
+    letter-spacing: 0.15em;
+    font-family: "Advent Pro";
+    font-weight: 700;
+    font-size: 4.6em;
+    text-transform: uppercase;
+    color: #9AFE2E;
+    text-shadow: 0 0 3px #9AFE2E, 0 0 5px #9AFE2E;
+}
+.animate {
+    animation-iteration-count:infinite;
+    animation-name: turnonlights;
+    animation-duration: 20.0s;
+    animation-fill-mode: both;
+    animation-timing-function: steps(2, start);
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-name: turnonlights;
+    -webkit-animation-duration: 20.0s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: steps(2, start);
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-name: turnonlights;
+    -moz-animation-duration: 20.0s;
+    -moz-animation-fill-mode: both;
+    -moz-animation-timing-function: steps(2, start);
+}
+.me {
+    color:#fff;
+    font-family: arial;
+    display:inline-block;
+    margin:auto;
+    position:relative;
+}
+.info {
+    float:left;
+    text-align: left;
+}
+.me img {
+    display:block;
+    float:left;
+    margin-right: 10px;
+}
+.block {
+    clear:both;
+    float:none;
+}
+.booni {
+    margin-top:10px;
+}
+.booni a {
+    color:#fff;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size:2em;
+    }
+}

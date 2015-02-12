@@ -1,5 +1,0 @@
-web1: #component type & number
-  document_root: site
-  shared_writable_dirs: [site/shots]
-  php_extensions:
-    - curl
